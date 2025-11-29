@@ -6,18 +6,45 @@ _Texbook_:
 "Provide an interface for creating families of related or dependent objects without specifying their concrete classes."<br>
 a.k.a - A factory of factories
 
+---
 
 ### Problem:
+Many systems need to work with **families of related objects** that must be used together.
+These objects are designed to be **compatible** with one another, but different families should not be mixed.
 
+<u>EX:</u> **💻 <span style="color: purple;">Mac</span> vs. <span style="color: green;">Windows</span> 🖥️**
 
+A MacBook expects peripherals—keyboards, monitors, trackpads, chargers—that follow Apple-specific protocols and configurations. A Windows laptop expects a completely different family of devices built around Windows drivers, system APIs, and hardware standards. Even though both laptops use the same types of devices, their implementations aren’t interchangeable.
 
-### Structure
+This is the exact type of problem the Abstract Factory pattern solves: it provides a clean way to create entire families of related, compatible objects for each platform—ensuring that the Mac family stays together, the Windows family stays together, and the application remains flexible.
 
+---
 
-### Participants
+### Structure:
+![abstract_factory](images/abstract_factory_structure.png)
 
+---
 
-### Pros and Cons
+### Participants:
+<u>**AbstractFactory:**</u><br>
+- declares an interface for operations that create abstract product objects.<br>
+
+<u>**ConcreteFactory:**</u><br>
+- implements the operations to create concrete product objects.<br>
+
+<u>**AbstractProduct:**</u><br>
+- declares an interface for a type of product object.<br>
+
+<u>**ConcreteProduct:**</u><br>
+- defines a product object to be created by the corresponding concrete factory.<br>
+- implements the AbstractProduct interface.<br>
+
+<u>**Client:**</u><br>
+- uses only interfaces desclared by AbstractFactory and AbstractProduct classes.<br>
+
+---
+
+### Pros and Cons:
 _Pros_:
 
 ✅ You can be sure that the products you’re getting from a factory are compatible with each other.<br>
