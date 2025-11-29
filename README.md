@@ -12,9 +12,9 @@
 
 ### --Overview--
 
-This repository is a curated collection of **_Object-Oriented Design Patterns_**, organized into the three primary categories defined by the _GoT_ ("Gang of Three").
+This repository is a curated collection of **_Object-Oriented Design Patterns_**, organized into the three primary categories defined by the _GoF_ ("Gang of Four") - Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides.
 ```
-Gang of Three
+Design Patterns
 ├── Behavioral
 ├── Creational
 └── Structural
@@ -35,41 +35,46 @@ The goal of this repository is to provide a hands-on, reference-ready space for 
 
 **Creational Patterns:**
 Patterns that focus on object creation mechanisms, enhancing flexibility and reuse.
-- Abstract Factory
-- Builder
-- Factory Method
-- Prototype
-- Singleton
+- [Abstract Factory](Creational/Abstract%20Factory/README.md)
+- [Builder](Creational/Builder/README.md)
+- [Factory Method](Creational/Factory/README.md)
+- [Prototype](Creational/Prototype/README.md)
+- [Singleton](Creational/Singleton/README.md)
 
 **Structural Patterns:**
 Patterns that help organize relationships between classes and objects.
-- Adapter
-- Bridge
-- Composite
-- Decorator
-- Facade
-- Flyweight
-- Proxy
+- [Adapter](Structural/Adapter/README.md)
+- [Bridge](Structural/Bridge/README.md)
+- [Composite](Structural/Composite/README.md)
+- [Decorator](Structural/Decorator/README.md)
+- [Facade](Structural/Facade/README.md)
+- [Flyweight](Structural/Flyweight/README.md)
+- [Proxy](Structural/Proxy/README.md)
 
-**Creational Patterns:**
+**Behavioral Patterns:**
 Patterns that manage communication, responsibility, and algorithms between objects.
-- Chain of Responsibility
-- Command
-- Interpreter
-- Iterator
-- Mediator
-- Memento
-- Observer
-- State
-- Strategy
-- Template Method
-- Visitor
+- [Chain of Responsibility](Behavioral/ChainOfResponsibility/README.md)
+- [Command](Behavioral/Command/README.md)
+- [Interpreter](Behavioral/Interpreter/README.md)
+- [Iterator](Behavioral/Iterator/README.md)
+- [Mediator](Behavioral/Mediator/README.md)
+- [Memento](Behavioral/Memento/README.md)
+- [Observer](Behavioral/Observer/README.md)
+- [State](Behavioral/State/README.md)
+- [Strategy](Behavioral/Strategy/README.md)
+- [Template Method](Behavioral/Template/README.md)
+- [Visitor](Behavioral/Visitor/README.md)
 
+---
 
 ### References
 
-https://refactoring.guru/design-patterns
+[1] Erich Gamma, Richard Helm, Ralph Johnson, John M. Vlissides,  
+*Design Patterns: Elements of Reusable Object-Oriented Software*,  
+Addison-Wesley Professional, 1994.<br>
+[2] [Refactoring.Guru – Design Patterns](https://refactoring.guru/design-patterns)  
 
+---
 
 ### 📂 Repository Structure
 ```
@@ -91,6 +96,8 @@ Design Patterns
     ├── Strategy
     └── ...
 ```
+
+---
 
 ### 🤝 Contributions
 Contributions are welcome! Whether it’s improving explanations, adding diagrams, or refining code examples, feel free to open a pull request or issue.
