@@ -28,7 +28,7 @@ Imagine you are running an ice-cream shop and taking orders from people. You are
 ---
 
 ### Structure:
-![factory](images/factory_structure.png)
+![factory](../Factory/Images/factory_structure.png)
 
 ---
 
