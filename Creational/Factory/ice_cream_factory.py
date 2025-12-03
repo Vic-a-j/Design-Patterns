@@ -24,18 +24,18 @@ class DessertMachineFactory(ABC):
 # -------------------------------------
 # Concrete Creators
 # 
-# Note: In this example, we are only creating 1 product.
+# Note: In this example, we are only creating 1 product - A dessert.
 # -------------------------------------
 class ConeMachine(DessertMachineFactory):
-    def create_dessert(self) -> Cone:
+    def create_dessert(self) -> Dessert:
         return Cone()
 
 
 class SundaeMachine(DessertMachineFactory):
-    def create_dessert(self) -> Sundae:
+    def create_dessert(self) -> Dessert:
         return Sundae()
 
 
 class MilkshakeMachine(DessertMachineFactory):
-    def create_dessert(self) -> Milkshake:
+    def create_dessert(self) -> Dessert:
         return Milkshake()

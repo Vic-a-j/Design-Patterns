@@ -20,6 +20,14 @@ This is the exact type of problem the Abstract Factory pattern solves: it provid
 
 ---
 
+### Applicability:
+- a system should be independent of how its products are created, composed, and represented.
+- a system should be configured with one of multiple families of products.
+- a family of related product objects is designed to be used together, and you need to enforce this constraint.
+- you want to provide a class library of produts, and you want to reveal just their intefaces, not their implementations.
+
+---
+
 ### Structure:
 ![abstract_factory](images/abstract_factory_structure.png)
 
@@ -50,7 +58,7 @@ _Pros_:
 ✅ You can be sure that the products you’re getting from a factory are compatible with each other.<br>
 ✅ You avoid tight coupling between concrete products and client code.<br>
 ✅ Single Responsibility Principle. You can extract the product creation code into one place, making the code easier to support.<br>
-✅ Open/Closed Principle. You can introduce new variants of products without breaking existing client code.<bre>
+✅ Open/Closed Principle. You can introduce new variants of products without breaking existing client code.<br>
 
 _Cons_:
 

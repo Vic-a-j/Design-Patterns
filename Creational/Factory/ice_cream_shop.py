@@ -6,4 +6,8 @@ class IceCreamShop():
         pass
 
     def process_order(self, dessert_machine: DessertMachineFactory) -> Dessert:
+        """Process orders given desert machine.
+        
+        Note: The client doesn't know about how to create the order. It simply makes a dessert.
+        """
         dessert_machine.make_order()
