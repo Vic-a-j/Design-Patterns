@@ -1,26 +1,30 @@
-from .Participants.dialogue import Dialogue
+from computer_factory import ComputerFactory, MacFactory, WindowsFactory
 
-class GUIToolKit():
-    def client_code(factory: AbstractFactory) -> None:
-        """
-        The client code works with factories and products only through abstract
-        types: AbstractFactory and AbstractProduct. This lets you pass any factory
-        or product subclass to the client code without breaking it.
-        """
-        product_a = factory.create_product_a()
-        product_b = factory.create_product_b()
+# ============================================================
+# Client
+# ============================================================
 
-        print(f"{product_b.useful_function_b()}")
-        print(f"{product_b.another_useful_function_b(product_a)}", end="")
+class ComputerSetup:
+    """
+    The client works with *abstract* products and factories.
+    It never knows about concrete classes.
+    """
+
+    def __init__(self, factory: ComputerFactory):
+        self.keyboard = factory.create_keyboard()
+        self.monitor = factory.create_monitor()
+
+    def prepare_workspace(self):
+        print("Setting up workstation...\n")
+        self.keyboard.type()
+        self.monitor.display()
+        print("\nWorkspace ready. 🚀")
 
 if __name__ == "__main__":
-    """
-    The client code can work with any concrete factory class.
-    """
-    print("Client: Testing client code with the first factory type:")
-    client_code(ConcreteFactory1())
+    print("----- MAC SETUP -----")
+    mac_setup = ComputerSetup(MacFactory())
+    mac_setup.prepare_workspace()
 
-    print("\n")
-
-    print("Client: Testing the same client code with the second factory type:")
-    client_code(ConcreteFactory2()) 
+    print("\n----- WINDOWS SETUP -----")
+    windows_setup = ComputerSetup(WindowsFactory())
+    windows_setup.prepare_workspace()
