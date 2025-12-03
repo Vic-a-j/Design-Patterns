@@ -11,7 +11,7 @@ _Texbook_:
 ---
 
 ### Structure:
-![visitor](images/visitor_structure.png)
+![visitor](../Visitor/Images/visitor_structure.png)
 
 ---
 

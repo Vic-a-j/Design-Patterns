@@ -10,7 +10,7 @@ _Texbook_:
 ---
 
 ### Structure:
-![prototype](images/prototype_structure.png)
+![prototype](../Prototype/Images/prototype_structure.png)
 
 ---
 

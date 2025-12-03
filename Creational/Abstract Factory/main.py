@@ -11,20 +11,24 @@ class ComputerSetup:
     """
 
     def __init__(self, factory: ComputerFactory):
+        print("Setting up workstation...\n")
         self.keyboard = factory.create_keyboard()
         self.monitor = factory.create_monitor()
-
-    def prepare_workspace(self):
-        print("Setting up workstation...\n")
-        self.keyboard.type()
-        self.monitor.display()
         print("\nWorkspace ready. 🚀")
+
+    def type(self) -> None:
+        self.keyboard.type()
+
+    def display(self) -> None:
+        self.monitor.display()
 
 if __name__ == "__main__":
     print("----- MAC SETUP -----")
     mac_setup = ComputerSetup(MacFactory())
-    mac_setup.prepare_workspace()
+    mac_setup.type()
+    mac_setup.display()
 
     print("\n----- WINDOWS SETUP -----")
     windows_setup = ComputerSetup(WindowsFactory())
-    windows_setup.prepare_workspace()
+    windows_setup.type()
+    windows_setup.display()

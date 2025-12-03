@@ -11,7 +11,7 @@ _Texbook_:
 ---
 
 ### Structure:
-![iterator](images/iterator_structure.png)
+![iterator](../Iterator/Images/iterator_structure.png)
 
 ---
 

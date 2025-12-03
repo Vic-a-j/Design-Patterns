@@ -10,7 +10,7 @@ _Texbook_:
 ---
 
 ### Structure:
-![observer](images/observer_structure.png)
+![observer](../Observer/Images/observer_structure.png)
 
 ---
 

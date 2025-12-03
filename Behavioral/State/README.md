@@ -10,7 +10,7 @@ _Texbook_:
 ---
 
 ### Structure:
-![state](images/state_structure.png)
+![state](../State/Images/state_structure.png)
 
 ---
 

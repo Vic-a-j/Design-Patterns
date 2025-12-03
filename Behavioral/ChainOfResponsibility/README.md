@@ -11,7 +11,7 @@ _Texbook_:
 ---
 
 ### Structure:
-![chain_of_responsibility](images/chain_of_responsibility_structure.png)
+![chain_of_responsibility](../ChainOfResponsibility/Images/chain_of_responsibility_structure.png)
 
 ---
 

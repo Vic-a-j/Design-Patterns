@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from ice_cream_products import Dessert, Sundae, Cone, Milkshake
+from ice_cream_products import Dessert, Cone, Sundae, Milkshake
 
 # -------------------------------------
 # Creator (Factory)

@@ -11,7 +11,7 @@ _Texbook_:
 ---
 
 ### Structure:
-![decorator](images/decorator_structure.png)
+![decorator](../Decorator/Images/decorator_structure.png)
 
 ---
 

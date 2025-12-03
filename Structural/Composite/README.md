@@ -11,8 +11,8 @@ _Texbook_:
 ---
 
 ### Structure:
-![composite_1](images/composite_structure_1.png)
-![composite_2](images/composite_structure_2.png)
+![composite_1](../Composite/Images/composite_structure_1.png)
+![composite_2](../Composite/Images/composite_structure_2.png)
 
 ---
 

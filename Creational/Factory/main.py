@@ -1,5 +1,4 @@
-from ice_cream_shop import IceCreamShop
-from ice_cream_factory import ConeMachine, SundaeMachine, MilkshakeMachine
+from ice_cream_factory import DessertMachineFactory, ConeMachine, SundaeMachine, MilkshakeMachine
 
 from enum import IntEnum
 
@@ -14,10 +13,32 @@ DESSERT_FACTORY = {
     DessertOption.MILKSHAKE: MilkshakeMachine()
 }
 
+# ============================================================
+# Client
+# ============================================================
+
+class IceCreamShop:
+    """
+    The client works with an *abstract* factory of a single product.
+    """
+
+    def __init__(self, factory: DessertMachineFactory):
+        self.factory = factory
+
+    def process_order(self) -> None:
+        """Process orders given desert machine.
+        
+        Note: The client doesn't know about how to create the order, it simply makes it.
+        """
+        self.factory.make_order()
+
+
 if __name__ == "__main__":
-    dessert_input = DessertOption(int(
-        input("Welcome to the ice-cream shop! What kind of dessert would you like?\n1) Cone\n2) Sundae\n3) Milkshake\n")
-    ))
+    dessert = DessertOption(
+        int(
+            input("Welcome to the ice-cream shop! What kind of dessert would you like?\n1) Cone\n2) Sundae\n3) Milkshake\n")
+        )
+    )
     
-    shop = IceCreamShop()
-    shop.process_order(DESSERT_FACTORY.get(dessert_input))
+    shop = IceCreamShop(DESSERT_FACTORY[dessert])
+    shop.process_order()

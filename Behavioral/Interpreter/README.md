@@ -11,7 +11,7 @@ _Texbook_:
 ---
 
 ### Structure:
-![interpreter](images/interpreter_structure.png)
+![interpreter](../Interpreter/Images/interpreter_structure.png)
 
 ---
 
