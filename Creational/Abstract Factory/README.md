@@ -29,7 +29,7 @@ This is the exact type of problem the Abstract Factory pattern solves: it provid
 ---
 
 ### Structure:
-![abstract_factory](Images/abstract_factory_structure.png)
+![abstract_factory](../Abstract%20Factory/Images/abstractfactory_structure.png)
 
 ---
 
