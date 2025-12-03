@@ -12,7 +12,7 @@ _Texbook_:
 ---
 
 ### Structure:
-![facade](images/facade_structure.png)
+![facade](../Facade/Images/facade_structure.png)
 
 ---
 

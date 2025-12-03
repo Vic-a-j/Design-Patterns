@@ -11,7 +11,7 @@ _Texbook_:
 ---
 
 ### Structure:
-![template](images/template_structure.png)
+![template](../Template/Images/template_structure.png)
 
 ---
 

@@ -11,7 +11,7 @@ _Texbook_:
 ---
 
 ### Structure:
-![adapter](images/adapter_structure.png)
+![adapter](../Adapter/Images/adapter_structure.png)
 
 ---
 

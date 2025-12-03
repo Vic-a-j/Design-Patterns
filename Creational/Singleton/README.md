@@ -10,7 +10,7 @@ _Texbook_:
 ---
 
 ### Structure:
-![singleton](images/singleton_structure.png)
+![singleton](../Singleton/Images/singleton_structure.png)
 
 ---
 

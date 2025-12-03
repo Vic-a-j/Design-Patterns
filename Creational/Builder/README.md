@@ -12,7 +12,7 @@ _Texbook_:
 ---
 
 ### Structure:
-![builder](images/builder_structure.png)
+![builder](../Builder/Images/builder_structure.png)
 
 ---
 

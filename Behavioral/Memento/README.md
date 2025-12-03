@@ -11,7 +11,7 @@ _Texbook_:
 ---
 
 ### Structure:
-![memento](images/memento_structure.png)
+![memento](../Memento/Images/memento_structure.png)
 
 ---
 

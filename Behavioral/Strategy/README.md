@@ -11,7 +11,7 @@ _Texbook_:
 ---
 
 ### Structure:
-![strategy](images/strategy_structure.png)
+![strategy](../Strategy/Images/strategy_structure.png)
 
 ---
 

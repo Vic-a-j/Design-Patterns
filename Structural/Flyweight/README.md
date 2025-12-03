@@ -11,8 +11,8 @@ _Texbook_:
 ---
 
 ### Structure:
-![flyweight_1](images/flyweight_structure_1.png)
-![flyweight_2](images/flyweight_structure_2.png)
+![flyweight_1](../Flyweight/Images/flyweight_structure_1.png)
+![flyweight_2](../Flyweight/Images/flyweight_structure_2.png)
 
 ---
 

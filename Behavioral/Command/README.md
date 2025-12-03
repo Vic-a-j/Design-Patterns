@@ -11,7 +11,7 @@ _Texbook_:
 ---
 
 ### Structure:
-![command](images/command_structure.png)
+![command](../Command/Images/command_structure.png)
 
 ---
 

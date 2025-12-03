@@ -12,7 +12,7 @@ _Texbook_:
 ---
 
 ### Structure:
-![proxy](images/proxy_structure.png)
+![proxy](../Proxy/Images/proxy_structure.png)
 
 ---
 

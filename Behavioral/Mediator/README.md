@@ -11,7 +11,7 @@ _Texbook_:
 ---
 
 ### Structure:
-![mediator](images/mediator_structure.png)
+![mediator](../Mediator/Images/mediator_structure.png)
 
 ---
 

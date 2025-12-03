@@ -11,7 +11,7 @@ _Texbook_:
 ---
 
 ### Structure:
-![bridge](images/bridge_structure.png)
+![bridge](../Bridge/Images/bridge_structure.png)
 
 ---
 
