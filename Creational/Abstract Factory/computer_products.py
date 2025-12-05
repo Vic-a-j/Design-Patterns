@@ -7,13 +7,13 @@ from abc import ABC, abstractmethod
 class Keyboard(ABC):
     @abstractmethod
     def type(self) -> None:
-        pass
+        ...
 
 
 class Monitor(ABC):
     @abstractmethod
     def display(self) -> None:
-        pass
+        ...
 
 
 # ============================================================

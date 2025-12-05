@@ -9,11 +9,11 @@ from computer_products import Keyboard, Monitor, MacKeyboard, MacMonitor, Window
 class ComputerFactory(ABC):
     @abstractmethod
     def create_keyboard(self) -> Keyboard:
-        pass
+        ...
 
     @abstractmethod
     def create_monitor(self) -> Monitor:
-        pass
+        ...
 
 
 # ============================================================

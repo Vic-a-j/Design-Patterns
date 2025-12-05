@@ -11,7 +11,7 @@ class DessertMachineFactory(ABC):
     @abstractmethod
     def create_dessert(self) -> Dessert:
         """Abstract class to create dessert."""
-        pass
+        ...
 
     def make_order(self) -> Dessert:
         """Delegates dessert creation to the subclass."""
