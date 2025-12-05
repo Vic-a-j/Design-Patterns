@@ -6,11 +6,11 @@ from abc import ABC, abstractmethod
 class Dessert(ABC):
     @abstractmethod
     def prepare(self) -> None:
-        pass
+        ...
 
     @abstractmethod
     def serve(self) -> None:
-        pass
+        ...
 
 
 # -------------------------------------
